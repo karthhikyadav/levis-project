@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card = single centered block */
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+}
+
+/* title */
+.login-form {
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* inputs layout */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* button */
+.btn {
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
